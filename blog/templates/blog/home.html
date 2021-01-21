@@ -1,0 +1,76 @@
+
+{% load static %}
+
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    
+    <style>body{background:RGB(248,248,248);}</style>
+    
+    <style>header{background:RGB(121,174,200);}</style>
+    
+     <style>header{background:RGB(160,197,212);}</style>
+    <style>nav{background:RGB(187,214,227);}</style>
+    <style>header{background:RGB(160,197,212);}</style>
+    <style>main{background:RGB(208,227,236);}</style>
+    <!-- body{background:RGB(121,174,200);}-->
+    
+    <style>body{color:RGB(65,118,144);}</style>
+  </head>
+  
+  <body>
+    <header>
+        
+        <h2>HOME PAGE</h2>
+        
+    </header>
+    
+    <nav>
+    <br>
+        <h3>Page du site </h3>
+          <ul>
+              <li><a href="admin/login/">Log In page</a></li>
+      
+              <li><a href="demandeurs/">Page demandeurs</a></li>
+      
+              <li><a href="demandes/">Page demandes</a></li>
+          </ul>
+    <br>
+    </nav>
+    
+    <br>
+    
+    <main>
+    <br>
+        <h3>Informations </h3>
+        <h4>Vidéos de prévention</h4>
+        <a href="https://www.youtube.com/watch?v=9Ay4u7OYOhA">Video <strong>COVID-19</strong> : gestes importants </a>
+        
+        <br>
+        
+        <article>
+            <h4>Articles sur le déconfinement</h4>
+            <p>
+                <a href="https://www.lemonde.fr/idees/article/2020/04/23/coronavirus-le-modele-francais-a-l-epreuve-du-deconfinement_6037531_3232.html">Le monde : Déconfinement français</a>
+            </p>  
+        </article>
+    
+        <figure>
+            <img src= "{% static 'blog/images/carte.PNG' %}" height="244" width="492" alt="Carte du déconfinement français" border="1" align="center" />
+        </figure>
+    <br>
+   </main>
+   
+   <br>
+    
+    <footer>
+        <p>© 2020 COVID-19</p>
+    </footer>
+    
+  </body>
+  
+</html>
+
